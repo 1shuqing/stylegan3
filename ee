@@ -3,19 +3,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "d2ccecab",
+   "id": "479477b1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-09-27T23:35:35.411930Z",
-     "iopub.status.busy": "2025-09-27T23:35:35.411606Z",
-     "iopub.status.idle": "2025-09-27T23:35:36.527923Z",
-     "shell.execute_reply": "2025-09-27T23:35:36.527068Z"
+     "iopub.execute_input": "2025-09-27T23:53:06.058637Z",
+     "iopub.status.busy": "2025-09-27T23:53:06.058276Z",
+     "iopub.status.idle": "2025-09-27T23:53:07.397507Z",
+     "shell.execute_reply": "2025-09-27T23:53:07.396047Z"
     },
     "papermill": {
-     "duration": 1.122251,
-     "end_time": "2025-09-27T23:35:36.529677",
+     "duration": 1.3459,
+     "end_time": "2025-09-27T23:53:07.399546",
      "exception": false,
-     "start_time": "2025-09-27T23:35:35.407426",
+     "start_time": "2025-09-27T23:53:06.053646",
      "status": "completed"
     },
     "tags": []
@@ -30,7 +30,7 @@
       "remote: Counting objects: 100% (163/163), done.\u001b[K\r\n",
       "remote: Compressing objects: 100% (73/73), done.\u001b[K\r\n",
       "remote: Total 212 (delta 99), reused 90 (delta 90), pack-reused 49 (from 1)\u001b[K\r\n",
-      "Receiving objects: 100% (212/212), 4.16 MiB | 10.42 MiB/s, done.\r\n",
+      "Receiving objects: 100% (212/212), 4.16 MiB | 9.14 MiB/s, done.\r\n",
       "Resolving deltas: 100% (108/108), done.\r\n"
      ]
     }
@@ -42,19 +42,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "9c69525f",
+   "id": "683ccc5f",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-09-27T23:35:36.538264Z",
-     "iopub.status.busy": "2025-09-27T23:35:36.537614Z",
-     "iopub.status.idle": "2025-09-27T23:35:36.543632Z",
-     "shell.execute_reply": "2025-09-27T23:35:36.542858Z"
+     "iopub.execute_input": "2025-09-27T23:53:07.409035Z",
+     "iopub.status.busy": "2025-09-27T23:53:07.408658Z",
+     "iopub.status.idle": "2025-09-27T23:53:07.416185Z",
+     "shell.execute_reply": "2025-09-27T23:53:07.415107Z"
     },
     "papermill": {
-     "duration": 0.011485,
-     "end_time": "2025-09-27T23:35:36.544985",
+     "duration": 0.01434,
+     "end_time": "2025-09-27T23:53:07.418107",
      "exception": false,
-     "start_time": "2025-09-27T23:35:36.533500",
+     "start_time": "2025-09-27T23:53:07.403767",
      "status": "completed"
     },
     "tags": []
@@ -65,7 +65,7 @@
      "output_type": "stream",
      "text": [
       "当前目录: /kaggle/working/stylegan3\n",
-      "['legacy.py', 'torch_utils', 'avg_spectra.py', 'gen_video.py', 'docs', 'train.py', 'environment.yml', 'gui_utils', 'metrics', 'dnnlib', 'README.md', 'visualizer.py', 'dataset_tool.py', 'calc_metrics.py', 'viz', 'Dockerfile', 'gen_images.py', 'LICENSE.txt', '.git', 'training', '.github']\n"
+      "['gui_utils', 'calc_metrics.py', '.git', 'dataset_tool.py', 'avg_spectra.py', 'train.py', 'legacy.py', 'torch_utils', 'visualizer.py', 'README.md', 'viz', 'docs', 'LICENSE.txt', 'gen_video.py', '.github', 'gen_images.py', 'environment.yml', 'training', 'Dockerfile', 'metrics', 'dnnlib']\n"
      ]
     }
    ],
@@ -83,19 +83,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "3280989b",
+   "id": "57ba8595",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-09-27T23:35:36.552552Z",
-     "iopub.status.busy": "2025-09-27T23:35:36.552025Z",
-     "iopub.status.idle": "2025-09-27T23:38:53.477930Z",
-     "shell.execute_reply": "2025-09-27T23:38:53.476924Z"
+     "iopub.execute_input": "2025-09-27T23:53:07.426264Z",
+     "iopub.status.busy": "2025-09-27T23:53:07.425960Z",
+     "iopub.status.idle": "2025-09-27T23:57:01.417584Z",
+     "shell.execute_reply": "2025-09-27T23:57:01.415936Z"
     },
     "papermill": {
-     "duration": 196.931545,
-     "end_time": "2025-09-27T23:38:53.479721",
+     "duration": 233.997982,
+     "end_time": "2025-09-27T23:57:01.419535",
      "exception": false,
-     "start_time": "2025-09-27T23:35:36.548176",
+     "start_time": "2025-09-27T23:53:07.421553",
      "status": "completed"
     },
     "tags": []
@@ -107,11 +107,11 @@
      "text": [
       "Collecting pillow==8.3.1\r\n",
       "  Downloading Pillow-8.3.1.tar.gz (48.7 MB)\r\n",
-      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m48.7/48.7 MB\u001b[0m \u001b[31m35.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m48.7/48.7 MB\u001b[0m \u001b[31m30.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25h  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
       "Building wheels for collected packages: pillow\r\n",
       "  Building wheel for pillow (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
-      "  Created wheel for pillow: filename=Pillow-8.3.1-cp311-cp311-linux_x86_64.whl size=1213464 sha256=e2c82412e984ce647835f33c4f57f690fce786006e4378c3ced05215046bbbee\r\n",
+      "  Created wheel for pillow: filename=Pillow-8.3.1-cp311-cp311-linux_x86_64.whl size=1213515 sha256=1e055c07432d8a3a320a4917a649fa1c6e25a67dc30477deda5bf98e00cddff4\r\n",
       "  Stored in directory: /root/.cache/pip/wheels/d5/f0/56/54ed274b63aa20da572c894203e0060cd552c6fe01759043f5\r\n",
       "Successfully built pillow\r\n",
       "Installing collected packages: pillow\r\n",
@@ -140,16 +140,16 @@
       "  Downloading requests-2.26.0-py2.py3-none-any.whl.metadata (4.8 kB)\r\n",
       "Collecting urllib3<1.27,>=1.21.1 (from requests==2.26.0)\r\n",
       "  Downloading urllib3-1.26.20-py2.py3-none-any.whl.metadata (50 kB)\r\n",
-      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m50.1/50.1 kB\u001b[0m \u001b[31m1.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m50.1/50.1 kB\u001b[0m \u001b[31m1.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hRequirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.11/dist-packages (from requests==2.26.0) (2025.6.15)\r\n",
       "Collecting charset-normalizer~=2.0.0 (from requests==2.26.0)\r\n",
       "  Downloading charset_normalizer-2.0.12-py3-none-any.whl.metadata (11 kB)\r\n",
       "Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.11/dist-packages (from requests==2.26.0) (3.10)\r\n",
       "Downloading requests-2.26.0-py2.py3-none-any.whl (62 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.3/62.3 kB\u001b[0m \u001b[31m3.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.3/62.3 kB\u001b[0m \u001b[31m2.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)\r\n",
       "Downloading urllib3-1.26.20-py2.py3-none-any.whl (144 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m144.2/144.2 kB\u001b[0m \u001b[31m5.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m144.2/144.2 kB\u001b[0m \u001b[31m4.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: urllib3, charset-normalizer, requests\r\n",
       "  Attempting uninstall: urllib3\r\n",
       "    Found existing installation: urllib3 2.5.0\r\n",
@@ -191,9 +191,9 @@
       "\u001b[0mSuccessfully installed charset-normalizer-2.0.12 requests-2.26.0 urllib3-1.26.20\r\n",
       "Collecting tqdm==4.62.2\r\n",
       "  Downloading tqdm-4.62.2-py2.py3-none-any.whl.metadata (56 kB)\r\n",
-      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m57.0/57.0 kB\u001b[0m \u001b[31m1.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m57.0/57.0 kB\u001b[0m \u001b[31m1.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tqdm-4.62.2-py2.py3-none-any.whl (76 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m76.2/76.2 kB\u001b[0m \u001b[31m4.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m76.2/76.2 kB\u001b[0m \u001b[31m2.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: tqdm\r\n",
       "  Attempting uninstall: tqdm\r\n",
       "    Found existing installation: tqdm 4.67.1\r\n",
@@ -214,7 +214,7 @@
       "Collecting ninja==1.10.2\r\n",
       "  Downloading ninja-1.10.2-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl.metadata (5.0 kB)\r\n",
       "Downloading ninja-1.10.2-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl (108 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m108.1/108.1 kB\u001b[0m \u001b[31m2.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m108.1/108.1 kB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: ninja\r\n",
       "  Attempting uninstall: ninja\r\n",
       "    Found existing installation: ninja 1.11.1.4\r\n",
@@ -223,7 +223,7 @@
       "Successfully installed ninja-1.10.2\r\n",
       "Collecting matplotlib==3.4.2\r\n",
       "  Downloading matplotlib-3.4.2.tar.gz (37.3 MB)\r\n",
-      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m37.3/37.3 MB\u001b[0m \u001b[31m50.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m37.3/37.3 MB\u001b[0m \u001b[31m40.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25h  Preparing metadata (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
       "Requirement already satisfied: cycler>=0.10 in /usr/local/lib/python3.11/dist-packages (from matplotlib==3.4.2) (0.12.1)\r\n",
       "Requirement already satisfied: kiwisolver>=1.0.1 in /usr/local/lib/python3.11/dist-packages (from matplotlib==3.4.2) (1.4.8)\r\n",
@@ -245,7 +245,7 @@
       "Requirement already satisfied: intel-cmplr-lib-ur==2024.2.0 in /usr/local/lib/python3.11/dist-packages (from intel-openmp<2026,>=2024->mkl->numpy>=1.16->matplotlib==3.4.2) (2024.2.0)\r\n",
       "Building wheels for collected packages: matplotlib\r\n",
       "  Building wheel for matplotlib (setup.py) ... \u001b[?25l\u001b[?25hdone\r\n",
-      "  Created wheel for matplotlib: filename=matplotlib-3.4.2-cp311-cp311-linux_x86_64.whl size=10440310 sha256=f95cc6974f89bcff10fd6781c2d6c09a98268947a1227b0b091970620a7a2721\r\n",
+      "  Created wheel for matplotlib: filename=matplotlib-3.4.2-cp311-cp311-linux_x86_64.whl size=10440312 sha256=b9d1a9fc568acc8bed2031ea7ddee491287ae6c5aca57af4ff1576282dbefe05\r\n",
       "  Stored in directory: /root/.cache/pip/wheels/57/a1/ed/118b1370d20bb050979204b93d5822952a2b34e36635d27908\r\n",
       "Successfully built matplotlib\r\n",
       "Installing collected packages: matplotlib\r\n",
@@ -284,7 +284,7 @@
       "Requirement already satisfied: intel-cmplr-lib-rt in /usr/local/lib/python3.11/dist-packages (from mkl_umath->numpy->imageio==2.9.0) (2024.2.0)\r\n",
       "Requirement already satisfied: intel-cmplr-lib-ur==2024.2.0 in /usr/local/lib/python3.11/dist-packages (from intel-openmp<2026,>=2024->mkl->numpy->imageio==2.9.0) (2024.2.0)\r\n",
       "Downloading imageio-2.9.0-py3-none-any.whl (3.3 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m30.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m28.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: imageio\r\n",
       "  Attempting uninstall: imageio\r\n",
       "    Found existing installation: imageio 2.37.0\r\n",
@@ -296,7 +296,7 @@
       "\u001b[0mSuccessfully installed imageio-2.9.0\r\n",
       "Collecting imgui==1.3.0\r\n",
       "  Downloading imgui-1.3.0.tar.gz (844 kB)\r\n",
-      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m844.7/844.7 kB\u001b[0m \u001b[31m11.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m844.7/844.7 kB\u001b[0m \u001b[31m9.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25h  \u001b[1;31merror\u001b[0m: \u001b[1msubprocess-exited-with-error\u001b[0m\r\n",
       "  \r\n",
       "  \u001b[31m×\u001b[0m \u001b[32mpython setup.py egg_info\u001b[0m did not run successfully.\r\n",
@@ -315,13 +315,13 @@
       "Collecting glfw==2.2.0\r\n",
       "  Downloading glfw-2.2.0-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38-none-manylinux2014_x86_64.whl.metadata (4.3 kB)\r\n",
       "Downloading glfw-2.2.0-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38-none-manylinux2014_x86_64.whl (204 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m204.8/204.8 kB\u001b[0m \u001b[31m4.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m204.8/204.8 kB\u001b[0m \u001b[31m3.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: glfw\r\n",
       "Successfully installed glfw-2.2.0\r\n",
       "Collecting pyopengl==3.1.5\r\n",
       "  Downloading PyOpenGL-3.1.5-py3-none-any.whl.metadata (3.2 kB)\r\n",
       "Downloading PyOpenGL-3.1.5-py3-none-any.whl (2.4 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m25.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m21.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: pyopengl\r\n",
       "  Attempting uninstall: pyopengl\r\n",
       "    Found existing installation: PyOpenGL 3.1.9\r\n",
@@ -331,7 +331,7 @@
       "Collecting imageio-ffmpeg==0.4.3\r\n",
       "  Downloading imageio_ffmpeg-0.4.3-py3-none-manylinux2010_x86_64.whl.metadata (1.6 kB)\r\n",
       "Downloading imageio_ffmpeg-0.4.3-py3-none-manylinux2010_x86_64.whl (26.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m26.9/26.9 MB\u001b[0m \u001b[31m65.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m26.9/26.9 MB\u001b[0m \u001b[31m54.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: imageio-ffmpeg\r\n",
       "  Attempting uninstall: imageio-ffmpeg\r\n",
       "    Found existing installation: imageio-ffmpeg 0.6.0\r\n",
@@ -353,7 +353,7 @@
       "Requirement already satisfied: intel-cmplr-lib-rt in /usr/local/lib/python3.11/dist-packages (from mkl_umath->numpy->pyspng) (2024.2.0)\r\n",
       "Requirement already satisfied: intel-cmplr-lib-ur==2024.2.0 in /usr/local/lib/python3.11/dist-packages (from intel-openmp<2026,>=2024->mkl->numpy->pyspng) (2024.2.0)\r\n",
       "Downloading pyspng-0.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (196 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m196.1/196.1 kB\u001b[0m \u001b[31m4.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m196.1/196.1 kB\u001b[0m \u001b[31m3.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: pyspng\r\n",
       "Successfully installed pyspng-0.1.3\r\n"
      ]
@@ -385,19 +385,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "0e06d4ae",
+   "id": "20577592",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-09-27T23:38:53.501571Z",
-     "iopub.status.busy": "2025-09-27T23:38:53.501223Z",
-     "iopub.status.idle": "2025-09-27T23:38:57.983861Z",
-     "shell.execute_reply": "2025-09-27T23:38:57.982842Z"
+     "iopub.execute_input": "2025-09-27T23:57:01.442056Z",
+     "iopub.status.busy": "2025-09-27T23:57:01.441662Z",
+     "iopub.status.idle": "2025-09-27T23:57:07.179634Z",
+     "shell.execute_reply": "2025-09-27T23:57:07.178401Z"
     },
     "papermill": {
-     "duration": 4.495763,
-     "end_time": "2025-09-27T23:38:57.985351",
+     "duration": 5.75148,
+     "end_time": "2025-09-27T23:57:07.181375",
      "exception": false,
-     "start_time": "2025-09-27T23:38:53.489588",
+     "start_time": "2025-09-27T23:57:01.429895",
      "status": "completed"
     },
     "tags": []
@@ -428,13 +428,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "95f8a8d5",
+   "id": "1af2f6a3",
    "metadata": {
     "papermill": {
-     "duration": 0.009109,
-     "end_time": "2025-09-27T23:38:58.004460",
+     "duration": 0.010043,
+     "end_time": "2025-09-27T23:57:07.202245",
      "exception": false,
-     "start_time": "2025-09-27T23:38:57.995351",
+     "start_time": "2025-09-27T23:57:07.192202",
      "status": "completed"
     },
     "tags": []
@@ -445,13 +445,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cd0f8698",
+   "id": "898b7c14",
    "metadata": {
     "papermill": {
-     "duration": 0.009082,
-     "end_time": "2025-09-27T23:38:58.022818",
+     "duration": 0.01023,
+     "end_time": "2025-09-27T23:57:07.225099",
      "exception": false,
-     "start_time": "2025-09-27T23:38:58.013736",
+     "start_time": "2025-09-27T23:57:07.214869",
      "status": "completed"
     },
     "tags": []
@@ -463,19 +463,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "c2c47741",
+   "id": "fac340ac",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-09-27T23:38:58.043158Z",
-     "iopub.status.busy": "2025-09-27T23:38:58.042737Z",
-     "iopub.status.idle": "2025-09-27T23:39:02.895572Z",
-     "shell.execute_reply": "2025-09-27T23:39:02.894669Z"
+     "iopub.execute_input": "2025-09-27T23:57:07.247453Z",
+     "iopub.status.busy": "2025-09-27T23:57:07.247049Z",
+     "iopub.status.idle": "2025-09-27T23:57:12.212225Z",
+     "shell.execute_reply": "2025-09-27T23:57:12.210944Z"
     },
     "papermill": {
-     "duration": 4.864626,
-     "end_time": "2025-09-27T23:39:02.897100",
+     "duration": 4.978751,
+     "end_time": "2025-09-27T23:57:12.214220",
      "exception": false,
-     "start_time": "2025-09-27T23:38:58.032474",
+     "start_time": "2025-09-27T23:57:07.235469",
      "status": "completed"
     },
     "tags": []
@@ -485,7 +485,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "转换图像格式: 100%|██████████| 42/42 [00:03<00:00, 11.89it/s]\n"
+      "转换图像格式: 100%|██████████| 42/42 [00:03<00:00, 11.91it/s]\n"
      ]
     },
     {
@@ -498,14 +498,15 @@
       "错误信息：\n",
       "\n",
       "  0%|          | 0/42 [00:00<?, ?it/s]\n",
-      " 12%|█▏        | 5/42 [00:00<00:00, 46.11it/s]\n",
-      " 24%|██▍       | 10/42 [00:00<00:00, 35.00it/s]\n",
-      " 38%|███▊      | 16/42 [00:00<00:00, 42.39it/s]\n",
-      " 52%|█████▏    | 22/42 [00:00<00:00, 46.90it/s]\n",
-      " 64%|██████▍   | 27/42 [00:00<00:00, 46.35it/s]\n",
-      " 76%|███████▌  | 32/42 [00:00<00:00, 46.15it/s]\n",
-      " 88%|████████▊ | 37/42 [00:00<00:00, 46.30it/s]\n",
-      "100%|██████████| 42/42 [00:00<00:00, 45.64it/s]\n",
+      " 12%|█▏        | 5/42 [00:00<00:00, 44.32it/s]\n",
+      " 24%|██▍       | 10/42 [00:00<00:00, 33.45it/s]\n",
+      " 38%|███▊      | 16/42 [00:00<00:00, 40.70it/s]\n",
+      " 52%|█████▏    | 22/42 [00:00<00:00, 44.96it/s]\n",
+      " 64%|██████▍   | 27/42 [00:00<00:00, 44.75it/s]\n",
+      " 76%|███████▌  | 32/42 [00:00<00:00, 44.69it/s]\n",
+      " 88%|████████▊ | 37/42 [00:00<00:00, 44.70it/s]\n",
+      "100%|██████████| 42/42 [00:00<00:00, 46.18it/s]\n",
+      "100%|██████████| 42/42 [00:00<00:00, 43.98it/s]\n",
       "\n",
       "\n",
       "数据集打包成功，保存至：/kaggle/working/my_dataset-512x512.zip\n"
@@ -576,19 +577,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "23cfb29a",
+   "id": "1442d829",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-09-27T23:39:02.920397Z",
-     "iopub.status.busy": "2025-09-27T23:39:02.920092Z",
-     "iopub.status.idle": "2025-09-27T23:39:02.938670Z",
-     "shell.execute_reply": "2025-09-27T23:39:02.937740Z"
+     "iopub.execute_input": "2025-09-27T23:57:12.245059Z",
+     "iopub.status.busy": "2025-09-27T23:57:12.244749Z",
+     "iopub.status.idle": "2025-09-27T23:57:12.258432Z",
+     "shell.execute_reply": "2025-09-27T23:57:12.257259Z"
     },
     "papermill": {
-     "duration": 0.031747,
-     "end_time": "2025-09-27T23:39:02.940031",
+     "duration": 0.02855,
+     "end_time": "2025-09-27T23:57:12.260019",
      "exception": false,
-     "start_time": "2025-09-27T23:39:02.908284",
+     "start_time": "2025-09-27T23:57:12.231469",
      "status": "completed"
     },
     "tags": []
@@ -627,19 +628,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "06abd9e5",
+   "id": "65a53e72",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-09-27T23:39:02.962453Z",
-     "iopub.status.busy": "2025-09-27T23:39:02.962134Z",
-     "iopub.status.idle": "2025-09-27T23:39:11.604537Z",
-     "shell.execute_reply": "2025-09-27T23:39:11.603600Z"
+     "iopub.execute_input": "2025-09-27T23:57:12.285201Z",
+     "iopub.status.busy": "2025-09-27T23:57:12.284053Z",
+     "iopub.status.idle": "2025-09-27T23:57:22.432101Z",
+     "shell.execute_reply": "2025-09-27T23:57:22.430027Z"
     },
     "papermill": {
-     "duration": 8.655728,
-     "end_time": "2025-09-27T23:39:11.606389",
+     "duration": 10.163755,
+     "end_time": "2025-09-27T23:57:22.435284",
      "exception": false,
-     "start_time": "2025-09-27T23:39:02.950661",
+     "start_time": "2025-09-27T23:57:12.271529",
      "status": "completed"
     },
     "tags": []
@@ -721,7 +722,7 @@
       "  \"metrics\": [\r\n",
       "    \"fid50k_full\"\r\n",
       "  ],\r\n",
-      "  \"total_kimg\": 100,\r\n",
+      "  \"total_kimg\": 200,\r\n",
       "  \"kimg_per_tick\": 4,\r\n",
       "  \"image_snapshot_ticks\": 5,\r\n",
       "  \"network_snapshot_ticks\": 5,\r\n",
@@ -752,7 +753,7 @@
       "Output directory:    /kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch8-gamma8.2\r\n",
       "Number of GPUs:      2\r\n",
       "Batch size:          8 images\r\n",
-      "Training duration:   100 kimg\r\n",
+      "Training duration:   200 kimg\r\n",
       "Dataset path:        /kaggle/working/my_dataset-512x512.zip\r\n",
       "Dataset size:        42 images\r\n",
       "Dataset resolution:  512\r\n",
@@ -767,7 +768,7 @@
       "  warnings.warn(\"urllib3 ({}) or chardet ({})/charset_normalizer ({}) doesn't match a supported \"\r\n",
       "No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'\r\n",
       "No CUDA runtime is found, using CUDA_HOME='/usr/local/cuda'\r\n",
-      "W0927 23:39:10.849000 3570 torch/multiprocessing/spawn.py:169] Terminating process 3576 via signal SIGTERM\r\n",
+      "W0927 23:57:21.526000 3570 torch/multiprocessing/spawn.py:169] Terminating process 3576 via signal SIGTERM\r\n",
       "Traceback (most recent call last):\r\n",
       "  File \"/kaggle/working/stylegan3/train.py\", line 286, in <module>\r\n",
       "    main() # pylint: disable=no-value-for-parameter\r\n",
@@ -845,7 +846,7 @@
     "--aug ada \\\n",
     "--resume /kaggle/input/100kimg-pkl/network-snapshot-000100.pkl \\\n",
     "--mirror 1 \\\n",
-    "--kimg 100 \\\n",
+    "--kimg 200 \\\n",
     "--snap 5 \\\n",
     "\n",
     "\n",
@@ -856,19 +857,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "22570304",
+   "id": "083bebea",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-09-27T23:39:11.630352Z",
-     "iopub.status.busy": "2025-09-27T23:39:11.630012Z",
-     "iopub.status.idle": "2025-09-27T23:39:11.759361Z",
-     "shell.execute_reply": "2025-09-27T23:39:11.758208Z"
+     "iopub.execute_input": "2025-09-27T23:57:22.494698Z",
+     "iopub.status.busy": "2025-09-27T23:57:22.494268Z",
+     "iopub.status.idle": "2025-09-27T23:57:22.631629Z",
+     "shell.execute_reply": "2025-09-27T23:57:22.629685Z"
     },
     "papermill": {
-     "duration": 0.143231,
-     "end_time": "2025-09-27T23:39:11.761145",
+     "duration": 0.16612,
+     "end_time": "2025-09-27T23:57:22.633951",
      "exception": false,
-     "start_time": "2025-09-27T23:39:11.617914",
+     "start_time": "2025-09-27T23:57:22.467831",
      "status": "completed"
     },
     "tags": []
@@ -880,8 +881,8 @@
      "text": [
       "  adding: kaggle/working/training/ (stored 0%)\r\n",
       "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch8-gamma8.2/ (stored 0%)\r\n",
-      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch8-gamma8.2/training_options.json (deflated 63%)\r\n",
-      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch8-gamma8.2/log.txt (stored 0%)\r\n"
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch8-gamma8.2/log.txt (stored 0%)\r\n",
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch8-gamma8.2/training_options.json (deflated 63%)\r\n"
      ]
     }
    ],
@@ -935,14 +936,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 222.396588,
-   "end_time": "2025-09-27T23:39:12.693323",
+   "duration": 264.336288,
+   "end_time": "2025-09-27T23:57:23.871888",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-09-27T23:35:30.296735",
+   "start_time": "2025-09-27T23:52:59.535600",
    "version": "2.6.0"
   }
  },
