@@ -3,19 +3,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "ac8164a6",
+   "id": "cd515019",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:52:50.822531Z",
-     "iopub.status.busy": "2025-10-18T08:52:50.822313Z",
-     "iopub.status.idle": "2025-10-18T08:52:52.151861Z",
-     "shell.execute_reply": "2025-10-18T08:52:52.150981Z"
+     "iopub.execute_input": "2025-10-18T09:11:16.683793Z",
+     "iopub.status.busy": "2025-10-18T09:11:16.683563Z",
+     "iopub.status.idle": "2025-10-18T09:11:17.606896Z",
+     "shell.execute_reply": "2025-10-18T09:11:17.605899Z"
     },
     "papermill": {
-     "duration": 1.33497,
-     "end_time": "2025-10-18T08:52:52.153098",
+     "duration": 0.929066,
+     "end_time": "2025-10-18T09:11:17.608533",
      "exception": false,
-     "start_time": "2025-10-18T08:52:50.818128",
+     "start_time": "2025-10-18T09:11:16.679467",
      "status": "completed"
     },
     "tags": []
@@ -30,7 +30,7 @@
       "remote: Counting objects: 100% (163/163), done.\u001b[K\r\n",
       "remote: Compressing objects: 100% (73/73), done.\u001b[K\r\n",
       "remote: Total 212 (delta 99), reused 90 (delta 90), pack-reused 49 (from 1)\u001b[K\r\n",
-      "Receiving objects: 100% (212/212), 4.16 MiB | 21.85 MiB/s, done.\r\n",
+      "Receiving objects: 100% (212/212), 4.16 MiB | 22.66 MiB/s, done.\r\n",
       "Resolving deltas: 100% (108/108), done.\r\n"
      ]
     }
@@ -42,19 +42,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "4f3712a5",
+   "id": "e666ac4b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:52:52.161281Z",
-     "iopub.status.busy": "2025-10-18T08:52:52.161045Z",
-     "iopub.status.idle": "2025-10-18T08:52:52.166012Z",
-     "shell.execute_reply": "2025-10-18T08:52:52.165399Z"
+     "iopub.execute_input": "2025-10-18T09:11:17.616436Z",
+     "iopub.status.busy": "2025-10-18T09:11:17.616169Z",
+     "iopub.status.idle": "2025-10-18T09:11:17.621253Z",
+     "shell.execute_reply": "2025-10-18T09:11:17.620568Z"
     },
     "papermill": {
-     "duration": 0.010065,
-     "end_time": "2025-10-18T08:52:52.167104",
+     "duration": 0.010137,
+     "end_time": "2025-10-18T09:11:17.622350",
      "exception": false,
-     "start_time": "2025-10-18T08:52:52.157039",
+     "start_time": "2025-10-18T09:11:17.612213",
      "status": "completed"
     },
     "tags": []
@@ -65,7 +65,7 @@
      "output_type": "stream",
      "text": [
       "当前目录: /kaggle/working/stylegan3\n",
-      "['legacy.py', 'dataset_tool.py', 'gen_images.py', 'visualizer.py', 'avg_spectra.py', '.github', 'torch_utils', 'environment.yml', 'Dockerfile', 'gen_video.py', 'README.md', 'training', 'calc_metrics.py', 'metrics', 'gui_utils', 'LICENSE.txt', 'dnnlib', '.git', 'train.py', 'docs', 'viz']\n"
+      "['dataset_tool.py', 'dnnlib', 'avg_spectra.py', 'README.md', 'training', 'gui_utils', 'visualizer.py', 'viz', 'gen_images.py', 'environment.yml', 'gen_video.py', 'calc_metrics.py', 'legacy.py', 'Dockerfile', 'docs', 'train.py', 'torch_utils', 'metrics', '.git', 'LICENSE.txt', '.github']\n"
      ]
     }
    ],
@@ -83,19 +83,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "5dffeca7",
+   "id": "7f492b36",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:52:52.174570Z",
-     "iopub.status.busy": "2025-10-18T08:52:52.174187Z",
-     "iopub.status.idle": "2025-10-18T08:53:19.190046Z",
-     "shell.execute_reply": "2025-10-18T08:53:19.189282Z"
+     "iopub.execute_input": "2025-10-18T09:11:17.629466Z",
+     "iopub.status.busy": "2025-10-18T09:11:17.629078Z",
+     "iopub.status.idle": "2025-10-18T09:11:42.331058Z",
+     "shell.execute_reply": "2025-10-18T09:11:42.330279Z"
     },
     "papermill": {
-     "duration": 27.020967,
-     "end_time": "2025-10-18T08:53:19.191322",
+     "duration": 24.707192,
+     "end_time": "2025-10-18T09:11:42.332571",
      "exception": false,
-     "start_time": "2025-10-18T08:52:52.170355",
+     "start_time": "2025-10-18T09:11:17.625379",
      "status": "completed"
     },
     "tags": []
@@ -108,19 +108,19 @@
       "Collecting imgui\r\n",
       "  Downloading imgui-2.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.0 kB)\r\n",
       "Downloading imgui-2.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.7 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.7/7.7 MB\u001b[0m \u001b[31m57.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.7/7.7 MB\u001b[0m \u001b[31m59.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: imgui\r\n",
       "Successfully installed imgui-2.0.0\r\n",
       "Collecting glfw==2.2.0\r\n",
       "  Downloading glfw-2.2.0-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38-none-manylinux2014_x86_64.whl.metadata (4.3 kB)\r\n",
       "Downloading glfw-2.2.0-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38-none-manylinux2014_x86_64.whl (204 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m204.8/204.8 kB\u001b[0m \u001b[31m3.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m204.8/204.8 kB\u001b[0m \u001b[31m5.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: glfw\r\n",
       "Successfully installed glfw-2.2.0\r\n",
       "Collecting pyopengl==3.1.5\r\n",
       "  Downloading PyOpenGL-3.1.5-py3-none-any.whl.metadata (3.2 kB)\r\n",
       "Downloading PyOpenGL-3.1.5-py3-none-any.whl (2.4 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m26.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m30.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: pyopengl\r\n",
       "  Attempting uninstall: pyopengl\r\n",
       "    Found existing installation: PyOpenGL 3.1.9\r\n",
@@ -130,7 +130,7 @@
       "Collecting imageio-ffmpeg==0.4.3\r\n",
       "  Downloading imageio_ffmpeg-0.4.3-py3-none-manylinux2010_x86_64.whl.metadata (1.6 kB)\r\n",
       "Downloading imageio_ffmpeg-0.4.3-py3-none-manylinux2010_x86_64.whl (26.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m26.9/26.9 MB\u001b[0m \u001b[31m75.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m26.9/26.9 MB\u001b[0m \u001b[31m48.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: imageio-ffmpeg\r\n",
       "  Attempting uninstall: imageio-ffmpeg\r\n",
       "    Found existing installation: imageio-ffmpeg 0.6.0\r\n",
@@ -152,7 +152,7 @@
       "Requirement already satisfied: intel-cmplr-lib-rt in /usr/local/lib/python3.11/dist-packages (from mkl_umath->numpy->pyspng) (2024.2.0)\r\n",
       "Requirement already satisfied: intel-cmplr-lib-ur==2024.2.0 in /usr/local/lib/python3.11/dist-packages (from intel-openmp<2026,>=2024->mkl->numpy->pyspng) (2024.2.0)\r\n",
       "Downloading pyspng-0.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (196 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m196.1/196.1 kB\u001b[0m \u001b[31m4.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m196.1/196.1 kB\u001b[0m \u001b[31m5.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: pyspng\r\n",
       "Successfully installed pyspng-0.1.3\r\n"
      ]
@@ -184,19 +184,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "840210da",
+   "id": "a633fd9a",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:19.202839Z",
-     "iopub.status.busy": "2025-10-18T08:53:19.202571Z",
-     "iopub.status.idle": "2025-10-18T08:53:19.718830Z",
-     "shell.execute_reply": "2025-10-18T08:53:19.717765Z"
+     "iopub.execute_input": "2025-10-18T09:11:42.344362Z",
+     "iopub.status.busy": "2025-10-18T09:11:42.344130Z",
+     "iopub.status.idle": "2025-10-18T09:11:42.831776Z",
+     "shell.execute_reply": "2025-10-18T09:11:42.830788Z"
     },
     "papermill": {
-     "duration": 0.523261,
-     "end_time": "2025-10-18T08:53:19.720039",
+     "duration": 0.495163,
+     "end_time": "2025-10-18T09:11:42.833238",
      "exception": false,
-     "start_time": "2025-10-18T08:53:19.196778",
+     "start_time": "2025-10-18T09:11:42.338075",
      "status": "completed"
     },
     "tags": []
@@ -266,19 +266,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "f57c24ea",
+   "id": "18b4ead3",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:19.730690Z",
-     "iopub.status.busy": "2025-10-18T08:53:19.730448Z",
-     "iopub.status.idle": "2025-10-18T08:53:26.088447Z",
-     "shell.execute_reply": "2025-10-18T08:53:26.087570Z"
+     "iopub.execute_input": "2025-10-18T09:11:42.844799Z",
+     "iopub.status.busy": "2025-10-18T09:11:42.844560Z",
+     "iopub.status.idle": "2025-10-18T09:11:46.846958Z",
+     "shell.execute_reply": "2025-10-18T09:11:46.846151Z"
     },
     "papermill": {
-     "duration": 6.364662,
-     "end_time": "2025-10-18T08:53:26.089739",
+     "duration": 4.009545,
+     "end_time": "2025-10-18T09:11:46.848323",
      "exception": false,
-     "start_time": "2025-10-18T08:53:19.725077",
+     "start_time": "2025-10-18T09:11:42.838778",
      "status": "completed"
     },
     "tags": []
@@ -309,13 +309,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "1f0211a6",
+   "id": "8ded4683",
    "metadata": {
     "papermill": {
-     "duration": 0.004651,
-     "end_time": "2025-10-18T08:53:26.099707",
+     "duration": 0.004914,
+     "end_time": "2025-10-18T09:11:46.858600",
      "exception": false,
-     "start_time": "2025-10-18T08:53:26.095056",
+     "start_time": "2025-10-18T09:11:46.853686",
      "status": "completed"
     },
     "tags": []
@@ -326,13 +326,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "ea52e3ea",
+   "id": "5c909927",
    "metadata": {
     "papermill": {
-     "duration": 0.004555,
-     "end_time": "2025-10-18T08:53:26.109097",
+     "duration": 0.004856,
+     "end_time": "2025-10-18T09:11:46.868317",
      "exception": false,
-     "start_time": "2025-10-18T08:53:26.104542",
+     "start_time": "2025-10-18T09:11:46.863461",
      "status": "completed"
     },
     "tags": []
@@ -344,19 +344,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "50d1957d",
+   "id": "7d2aa099",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:26.120448Z",
-     "iopub.status.busy": "2025-10-18T08:53:26.120150Z",
-     "iopub.status.idle": "2025-10-18T08:53:26.124130Z",
-     "shell.execute_reply": "2025-10-18T08:53:26.123573Z"
+     "iopub.execute_input": "2025-10-18T09:11:46.879625Z",
+     "iopub.status.busy": "2025-10-18T09:11:46.879303Z",
+     "iopub.status.idle": "2025-10-18T09:11:46.883815Z",
+     "shell.execute_reply": "2025-10-18T09:11:46.883109Z"
     },
     "papermill": {
-     "duration": 0.011273,
-     "end_time": "2025-10-18T08:53:26.125153",
+     "duration": 0.011576,
+     "end_time": "2025-10-18T09:11:46.884887",
      "exception": false,
-     "start_time": "2025-10-18T08:53:26.113880",
+     "start_time": "2025-10-18T09:11:46.873311",
      "status": "completed"
     },
     "tags": []
@@ -426,19 +426,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "750ab894",
+   "id": "760900f6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:26.135770Z",
-     "iopub.status.busy": "2025-10-18T08:53:26.135326Z",
-     "iopub.status.idle": "2025-10-18T08:53:26.140127Z",
-     "shell.execute_reply": "2025-10-18T08:53:26.139449Z"
+     "iopub.execute_input": "2025-10-18T09:11:46.896730Z",
+     "iopub.status.busy": "2025-10-18T09:11:46.896519Z",
+     "iopub.status.idle": "2025-10-18T09:11:46.900996Z",
+     "shell.execute_reply": "2025-10-18T09:11:46.900447Z"
     },
     "papermill": {
-     "duration": 0.011192,
-     "end_time": "2025-10-18T08:53:26.141181",
+     "duration": 0.011333,
+     "end_time": "2025-10-18T09:11:46.902019",
      "exception": false,
-     "start_time": "2025-10-18T08:53:26.129989",
+     "start_time": "2025-10-18T09:11:46.890686",
      "status": "completed"
     },
     "tags": []
@@ -532,19 +532,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "cb52fff0",
+   "id": "7de5f065",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:26.151927Z",
-     "iopub.status.busy": "2025-10-18T08:53:26.151457Z",
-     "iopub.status.idle": "2025-10-18T08:53:26.158354Z",
-     "shell.execute_reply": "2025-10-18T08:53:26.157619Z"
+     "iopub.execute_input": "2025-10-18T09:11:46.912856Z",
+     "iopub.status.busy": "2025-10-18T09:11:46.912652Z",
+     "iopub.status.idle": "2025-10-18T09:11:46.920173Z",
+     "shell.execute_reply": "2025-10-18T09:11:46.919409Z"
     },
     "papermill": {
-     "duration": 0.01341,
-     "end_time": "2025-10-18T08:53:26.159484",
+     "duration": 0.014467,
+     "end_time": "2025-10-18T09:11:46.921649",
      "exception": false,
-     "start_time": "2025-10-18T08:53:26.146074",
+     "start_time": "2025-10-18T09:11:46.907182",
      "status": "completed"
     },
     "tags": []
@@ -602,19 +602,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "d9b1bab5",
+   "id": "3854c949",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:26.169833Z",
-     "iopub.status.busy": "2025-10-18T08:53:26.169610Z",
-     "iopub.status.idle": "2025-10-18T08:53:26.184233Z",
-     "shell.execute_reply": "2025-10-18T08:53:26.183710Z"
+     "iopub.execute_input": "2025-10-18T09:11:46.932608Z",
+     "iopub.status.busy": "2025-10-18T09:11:46.932409Z",
+     "iopub.status.idle": "2025-10-18T09:11:46.945871Z",
+     "shell.execute_reply": "2025-10-18T09:11:46.945033Z"
     },
     "papermill": {
-     "duration": 0.020818,
-     "end_time": "2025-10-18T08:53:26.185143",
+     "duration": 0.020292,
+     "end_time": "2025-10-18T09:11:46.947126",
      "exception": false,
-     "start_time": "2025-10-18T08:53:26.164325",
+     "start_time": "2025-10-18T09:11:46.926834",
      "status": "completed"
     },
     "tags": []
@@ -653,19 +653,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "577c5e7d",
+   "id": "5551b38b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:26.195959Z",
-     "iopub.status.busy": "2025-10-18T08:53:26.195756Z",
-     "iopub.status.idle": "2025-10-18T08:53:27.487490Z",
-     "shell.execute_reply": "2025-10-18T08:53:27.486860Z"
+     "iopub.execute_input": "2025-10-18T09:11:46.958513Z",
+     "iopub.status.busy": "2025-10-18T09:11:46.958292Z",
+     "iopub.status.idle": "2025-10-18T09:11:47.931335Z",
+     "shell.execute_reply": "2025-10-18T09:11:47.930304Z"
     },
     "papermill": {
-     "duration": 1.298389,
-     "end_time": "2025-10-18T08:53:27.488618",
+     "duration": 0.980991,
+     "end_time": "2025-10-18T09:11:47.933403",
      "exception": false,
-     "start_time": "2025-10-18T08:53:26.190229",
+     "start_time": "2025-10-18T09:11:46.952412",
      "status": "completed"
     },
     "tags": []
@@ -701,19 +701,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "f3b19c40",
+   "id": "3598d94d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:27.500183Z",
-     "iopub.status.busy": "2025-10-18T08:53:27.499965Z",
-     "iopub.status.idle": "2025-10-18T08:53:27.504060Z",
-     "shell.execute_reply": "2025-10-18T08:53:27.503395Z"
+     "iopub.execute_input": "2025-10-18T09:11:47.951727Z",
+     "iopub.status.busy": "2025-10-18T09:11:47.951407Z",
+     "iopub.status.idle": "2025-10-18T09:11:47.956221Z",
+     "shell.execute_reply": "2025-10-18T09:11:47.955608Z"
     },
     "papermill": {
-     "duration": 0.011159,
-     "end_time": "2025-10-18T08:53:27.505091",
+     "duration": 0.015688,
+     "end_time": "2025-10-18T09:11:47.957577",
      "exception": false,
-     "start_time": "2025-10-18T08:53:27.493932",
+     "start_time": "2025-10-18T09:11:47.941889",
      "status": "completed"
     },
     "tags": []
@@ -792,20 +792,20 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "7748e4f2",
+   "id": "cd44a8c1",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:27.516540Z",
-     "iopub.status.busy": "2025-10-18T08:53:27.516135Z",
-     "iopub.status.idle": "2025-10-18T08:53:46.092403Z",
-     "shell.execute_reply": "2025-10-18T08:53:46.091581Z"
+     "iopub.execute_input": "2025-10-18T09:11:47.974970Z",
+     "iopub.status.busy": "2025-10-18T09:11:47.974558Z",
+     "iopub.status.idle": "2025-10-18T09:15:40.730003Z",
+     "shell.execute_reply": "2025-10-18T09:15:40.729063Z"
     },
     "papermill": {
-     "duration": 18.583438,
-     "end_time": "2025-10-18T08:53:46.093769",
+     "duration": 232.766689,
+     "end_time": "2025-10-18T09:15:40.731528",
      "exception": false,
-     "start_time": "2025-10-18T08:53:27.510331",
+     "start_time": "2025-10-18T09:11:47.964839",
      "status": "completed"
     },
     "tags": []
@@ -872,7 +872,7 @@
       "  \"training_set_kwargs\": {\r\n",
       "    \"class_name\": \"training.dataset.ImageFolderDataset\",\r\n",
       "    \"path\": \"/kaggle/working/my_dataset-512x512.zip\",\r\n",
-      "    \"use_labels\": false,\r\n",
+      "    \"use_labels\": true,\r\n",
       "    \"max_size\": 170,\r\n",
       "    \"xflip\": true,\r\n",
       "    \"resolution\": 512,\r\n",
@@ -919,7 +919,7 @@
       "Dataset path:        /kaggle/working/my_dataset-512x512.zip\r\n",
       "Dataset size:        170 images\r\n",
       "Dataset resolution:  512\r\n",
-      "Dataset labels:      False\r\n",
+      "Dataset labels:      True\r\n",
       "Dataset x-flips:     True\r\n",
       "\r\n",
       "Creating output directory...\r\n",
@@ -932,12 +932,130 @@
       "\r\n",
       "Num images:  340\r\n",
       "Image shape: [3, 512, 512]\r\n",
-      "Label shape: [0]\r\n",
+      "Label shape: [5]\r\n",
       "\r\n",
       "Constructing networks...\r\n",
       "Resuming from \"/kaggle/input/new-120kpkl/network-snapshot-000060.pkl\"\r\n",
-      "[rank0]:[W1018 08:53:44.950825101 ProcessGroupNCCL.cpp:1496] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())\r\n",
-      "W1018 08:53:45.407000 81 torch/multiprocessing/spawn.py:169] Terminating process 89 via signal SIGTERM\r\n",
+      "Setting up PyTorch plugin \"bias_act_plugin\"... /usr/local/lib/python3.11/dist-packages/torch/utils/cpp_extension.py:2059: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. \r\n",
+      "If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].\r\n",
+      "  warnings.warn(\r\n",
+      "Done.\r\n",
+      "Setting up PyTorch plugin \"filtered_lrelu_plugin\"... /usr/local/lib/python3.11/dist-packages/torch/utils/cpp_extension.py:2059: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. \r\n",
+      "If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].\r\n",
+      "  warnings.warn(\r\n",
+      "Done.\r\n",
+      "\r\n",
+      "Generator                     Parameters  Buffers  Output shape         Datatype\r\n",
+      "---                           ---         ---      ---                  ---     \r\n",
+      "mapping.embed                 3072        -        [12, 512]            float32 \r\n",
+      "mapping.fc0                   524800      -        [12, 512]            float32 \r\n",
+      "mapping.fc1                   262656      -        [12, 512]            float32 \r\n",
+      "mapping                       -           512      [12, 16, 512]        float32 \r\n",
+      "synthesis.input.affine        2052        -        [12, 4]              float32 \r\n",
+      "synthesis.input               262144      1545     [12, 512, 36, 36]    float32 \r\n",
+      "synthesis.L0_36_512.affine    262656      -        [12, 512]            float32 \r\n",
+      "synthesis.L0_36_512           2359808     25       [12, 512, 36, 36]    float32 \r\n",
+      "synthesis.L1_36_512.affine    262656      -        [12, 512]            float32 \r\n",
+      "synthesis.L1_36_512           2359808     25       [12, 512, 36, 36]    float32 \r\n",
+      "synthesis.L2_52_512.affine    262656      -        [12, 512]            float32 \r\n",
+      "synthesis.L2_52_512           2359808     37       [12, 512, 52, 52]    float32 \r\n",
+      "synthesis.L3_52_512.affine    262656      -        [12, 512]            float32 \r\n",
+      "synthesis.L3_52_512           2359808     25       [12, 512, 52, 52]    float32 \r\n",
+      "synthesis.L4_84_512.affine    262656      -        [12, 512]            float32 \r\n",
+      "synthesis.L4_84_512           2359808     37       [12, 512, 84, 84]    float16 \r\n",
+      "synthesis.L5_84_512.affine    262656      -        [12, 512]            float32 \r\n",
+      "synthesis.L5_84_512           2359808     25       [12, 512, 84, 84]    float16 \r\n",
+      "synthesis.L6_148_512.affine   262656      -        [12, 512]            float32 \r\n",
+      "synthesis.L6_148_512          2359808     37       [12, 512, 148, 148]  float16 \r\n",
+      "synthesis.L7_148_483.affine   262656      -        [12, 512]            float32 \r\n",
+      "synthesis.L7_148_483          2226147     25       [12, 483, 148, 148]  float16 \r\n",
+      "synthesis.L8_276_323.affine   247779      -        [12, 483]            float32 \r\n",
+      "synthesis.L8_276_323          1404404     37       [12, 323, 276, 276]  float16 \r\n",
+      "synthesis.L9_276_215.affine   165699      -        [12, 323]            float32 \r\n",
+      "synthesis.L9_276_215          625220      25       [12, 215, 276, 276]  float16 \r\n",
+      "synthesis.L10_532_144.affine  110295      -        [12, 215]            float32 \r\n",
+      "synthesis.L10_532_144         278784      37       [12, 144, 532, 532]  float16 \r\n",
+      "synthesis.L11_532_96.affine   73872       -        [12, 144]            float32 \r\n",
+      "synthesis.L11_532_96          124512      25       [12, 96, 532, 532]   float16 \r\n",
+      "synthesis.L12_532_64.affine   49248       -        [12, 96]             float32 \r\n",
+      "synthesis.L12_532_64          55360       25       [12, 64, 532, 532]   float16 \r\n",
+      "synthesis.L13_512_64.affine   32832       -        [12, 64]             float32 \r\n",
+      "synthesis.L13_512_64          36928       25       [12, 64, 512, 512]   float16 \r\n",
+      "synthesis.L14_512_3.affine    32832       -        [12, 64]             float32 \r\n",
+      "synthesis.L14_512_3           195         1        [12, 3, 512, 512]    float16 \r\n",
+      "synthesis                     -           -        [12, 3, 512, 512]    float32 \r\n",
+      "---                           ---         ---      ---                  ---     \r\n",
+      "Total                         25138735    2468     -                    -       \r\n",
+      "\r\n",
+      "Setting up PyTorch plugin \"upfirdn2d_plugin\"... /usr/local/lib/python3.11/dist-packages/torch/utils/cpp_extension.py:2059: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. \r\n",
+      "If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].\r\n",
+      "  warnings.warn(\r\n",
+      "Done.\r\n",
+      "\r\n",
+      "Discriminator  Parameters  Buffers  Output shape         Datatype\r\n",
+      "---            ---         ---      ---                  ---     \r\n",
+      "b512.fromrgb   256         16       [12, 64, 512, 512]   float16 \r\n",
+      "b512.skip      8192        16       [12, 128, 256, 256]  float16 \r\n",
+      "b512.conv0     36928       16       [12, 64, 512, 512]   float16 \r\n",
+      "b512.conv1     73856       16       [12, 128, 256, 256]  float16 \r\n",
+      "b512           -           16       [12, 128, 256, 256]  float16 \r\n",
+      "b256.skip      32768       16       [12, 256, 128, 128]  float16 \r\n",
+      "b256.conv0     147584      16       [12, 128, 256, 256]  float16 \r\n",
+      "b256.conv1     295168      16       [12, 256, 128, 128]  float16 \r\n",
+      "b256           -           16       [12, 256, 128, 128]  float16 \r\n",
+      "b128.skip      131072      16       [12, 512, 64, 64]    float16 \r\n",
+      "b128.conv0     590080      16       [12, 256, 128, 128]  float16 \r\n",
+      "b128.conv1     1180160     16       [12, 512, 64, 64]    float16 \r\n",
+      "b128           -           16       [12, 512, 64, 64]    float16 \r\n",
+      "b64.skip       262144      16       [12, 512, 32, 32]    float16 \r\n",
+      "b64.conv0      2359808     16       [12, 512, 64, 64]    float16 \r\n",
+      "b64.conv1      2359808     16       [12, 512, 32, 32]    float16 \r\n",
+      "b64            -           16       [12, 512, 32, 32]    float16 \r\n",
+      "b32.skip       262144      16       [12, 512, 16, 16]    float32 \r\n",
+      "b32.conv0      2359808     16       [12, 512, 32, 32]    float32 \r\n",
+      "b32.conv1      2359808     16       [12, 512, 16, 16]    float32 \r\n",
+      "b32            -           16       [12, 512, 16, 16]    float32 \r\n",
+      "b16.skip       262144      16       [12, 512, 8, 8]      float32 \r\n",
+      "b16.conv0      2359808     16       [12, 512, 16, 16]    float32 \r\n",
+      "b16.conv1      2359808     16       [12, 512, 8, 8]      float32 \r\n",
+      "b16            -           16       [12, 512, 8, 8]      float32 \r\n",
+      "b8.skip        262144      16       [12, 512, 4, 4]      float32 \r\n",
+      "b8.conv0       2359808     16       [12, 512, 8, 8]      float32 \r\n",
+      "b8.conv1       2359808     16       [12, 512, 4, 4]      float32 \r\n",
+      "b8             -           16       [12, 512, 4, 4]      float32 \r\n",
+      "mapping.embed  3072        -        [12, 512]            float32 \r\n",
+      "mapping.fc0    262656      -        [12, 512]            float32 \r\n",
+      "mapping.fc1    262656      -        [12, 512]            float32 \r\n",
+      "mapping.fc2    262656      -        [12, 512]            float32 \r\n",
+      "mapping.fc3    262656      -        [12, 512]            float32 \r\n",
+      "mapping.fc4    262656      -        [12, 512]            float32 \r\n",
+      "mapping.fc5    262656      -        [12, 512]            float32 \r\n",
+      "mapping.fc6    262656      -        [12, 512]            float32 \r\n",
+      "mapping.fc7    262656      -        [12, 512]            float32 \r\n",
+      "b4.mbstd       -           -        [12, 513, 4, 4]      float32 \r\n",
+      "b4.conv        2364416     16       [12, 512, 4, 4]      float32 \r\n",
+      "b4.fc          4194816     -        [12, 512]            float32 \r\n",
+      "b4.out         262656      -        [12, 512]            float32 \r\n",
+      "b4             -           -        [12, 1]              float32 \r\n",
+      "---            ---         ---      ---                  ---     \r\n",
+      "Total          31349312    480      -                    -       \r\n",
+      "\r\n",
+      "Setting up augmentation...\r\n",
+      "Distributing across 2 GPUs...\r\n",
+      "Setting up training phases...\r\n",
+      "Exporting sample images...\r\n",
+      "/usr/local/lib/python3.11/dist-packages/torch/utils/cpp_extension.py:2059: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. \r\n",
+      "If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].\r\n",
+      "  warnings.warn(\r\n",
+      "/usr/local/lib/python3.11/dist-packages/torch/utils/cpp_extension.py:2059: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation. \r\n",
+      "If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].\r\n",
+      "  warnings.warn(\r\n",
+      "Initializing logs...\r\n",
+      "2025-10-18 09:15:27.262245: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered\r\n",
+      "WARNING: All log messages before absl::InitializeLog() is called are written to STDERR\r\n",
+      "E0000 00:00:1760778927.493227      88 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered\r\n",
+      "E0000 00:00:1760778927.564464      88 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered\r\n",
+      "W1018 09:15:39.765000 81 torch/multiprocessing/spawn.py:169] Terminating process 88 via signal SIGTERM\r\n",
       "Traceback (most recent call last):\r\n",
       "  File \"/kaggle/working/stylegan3/train.py\", line 286, in <module>\r\n",
       "    main() # pylint: disable=no-value-for-parameter\r\n",
@@ -968,18 +1086,32 @@
       "    raise ProcessRaisedException(msg, error_index, failed_process.pid)\r\n",
       "torch.multiprocessing.spawn.ProcessRaisedException: \r\n",
       "\r\n",
-      "-- Process 0 terminated with the following error:\r\n",
+      "-- Process 1 terminated with the following error:\r\n",
       "Traceback (most recent call last):\r\n",
       "  File \"/usr/local/lib/python3.11/dist-packages/torch/multiprocessing/spawn.py\", line 90, in _wrap\r\n",
       "    fn(i, *args)\r\n",
       "  File \"/kaggle/working/stylegan3/train.py\", line 47, in subprocess_fn\r\n",
       "    training_loop.training_loop(rank=rank, **c)\r\n",
-      "  File \"/kaggle/working/stylegan3/training/training_loop.py\", line 162, in training_loop\r\n",
-      "    misc.copy_params_and_buffers(resume_data[name], module, require_all=False)\r\n",
-      "  File \"/kaggle/working/stylegan3/torch_utils/misc.py\", line 162, in copy_params_and_buffers\r\n",
-      "    tensor.copy_(src_tensors[name].detach()).requires_grad_(tensor.requires_grad)\r\n",
-      "    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
-      "RuntimeError: The size of tensor a (512) must match the size of tensor b (1024) at non-singleton dimension 1\r\n",
+      "  File \"/kaggle/working/stylegan3/training/training_loop.py\", line 278, in training_loop\r\n",
+      "    loss.accumulate_gradients(phase=phase.name, real_img=real_img, real_c=real_c, gen_z=gen_z, gen_c=gen_c, gain=phase.interval, cur_nimg=cur_nimg)\r\n",
+      "  File \"/kaggle/working/stylegan3/training/loss.py\", line 75, in accumulate_gradients\r\n",
+      "    gen_logits = self.run_D(gen_img, gen_c, blur_sigma=blur_sigma)\r\n",
+      "                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/kaggle/working/stylegan3/training/loss.py\", line 59, in run_D\r\n",
+      "    img = self.augment_pipe(img)\r\n",
+      "          ^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 1739, in _wrapped_call_impl\r\n",
+      "    return self._call_impl(*args, **kwargs)\r\n",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 1750, in _call_impl\r\n",
+      "    return forward_call(*args, **kwargs)\r\n",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/kaggle/working/stylegan3/training/augment.py\", line 210, in forward\r\n",
+      "    if self.rotate90 > 0:\r\n",
+      "       ^^^^^^^^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/torch/nn/modules/module.py\", line 1928, in __getattr__\r\n",
+      "    raise AttributeError(\r\n",
+      "AttributeError: 'AugmentPipe' object has no attribute 'rotate90'\r\n",
       "\r\n"
      ]
     }
@@ -1009,7 +1141,7 @@
     "--aug fixed --p 0.2 \\\n",
     "--target 0.55 \\\n",
     "--mirror 1 \\\n",
-    "--cond 0\\\n",
+    "--cond 1\\\n",
     "--kimg 160\\\n",
     "--snap 10\\\n",
     "\n",
@@ -1021,13 +1153,13 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "c623b3d9",
+   "id": "918d1cf1",
    "metadata": {
     "papermill": {
-     "duration": 0.005684,
-     "end_time": "2025-10-18T08:53:46.105509",
+     "duration": 0.006317,
+     "end_time": "2025-10-18T09:15:40.744937",
      "exception": false,
-     "start_time": "2025-10-18T08:53:46.099825",
+     "start_time": "2025-10-18T09:15:40.738620",
      "status": "completed"
     },
     "tags": []
@@ -1038,19 +1170,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "3c69391c",
+   "id": "b475b62d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:53:46.118049Z",
-     "iopub.status.busy": "2025-10-18T08:53:46.117797Z",
-     "iopub.status.idle": "2025-10-18T08:53:46.248269Z",
-     "shell.execute_reply": "2025-10-18T08:53:46.246967Z"
+     "iopub.execute_input": "2025-10-18T09:15:40.759117Z",
+     "iopub.status.busy": "2025-10-18T09:15:40.758817Z",
+     "iopub.status.idle": "2025-10-18T09:15:43.640321Z",
+     "shell.execute_reply": "2025-10-18T09:15:43.639509Z"
     },
     "papermill": {
-     "duration": 0.13852,
-     "end_time": "2025-10-18T08:53:46.249844",
+     "duration": 2.890468,
+     "end_time": "2025-10-18T09:15:43.641683",
      "exception": false,
-     "start_time": "2025-10-18T08:53:46.111324",
+     "start_time": "2025-10-18T09:15:40.751215",
      "status": "completed"
     },
     "tags": []
@@ -1062,8 +1194,11 @@
      "text": [
       "  adding: kaggle/working/training/ (stored 0%)\r\n",
       "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/ (stored 0%)\r\n",
-      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/log.txt (deflated 53%)\r\n",
-      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/training_options.json (deflated 63%)\r\n"
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/fakes_init.png (deflated 0%)\r\n",
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/stats.jsonl (stored 0%)\r\n",
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/reals.png (deflated 1%)\r\n",
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/training_options.json (deflated 63%)\r\n",
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/log.txt (deflated 82%)\r\n"
      ]
     }
    ],
@@ -1117,14 +1252,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 61.83491,
-   "end_time": "2025-10-18T08:53:46.975571",
+   "duration": 272.017262,
+   "end_time": "2025-10-18T09:15:44.367908",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-10-18T08:52:45.140661",
+   "start_time": "2025-10-18T09:11:12.350646",
    "version": "2.6.0"
   }
  },
