@@ -3,19 +3,19 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "b59e060b",
+   "id": "ac8164a6",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:08.841336Z",
-     "iopub.status.busy": "2025-10-18T08:32:08.840992Z",
-     "iopub.status.idle": "2025-10-18T08:32:09.823662Z",
-     "shell.execute_reply": "2025-10-18T08:32:09.822697Z"
+     "iopub.execute_input": "2025-10-18T08:52:50.822531Z",
+     "iopub.status.busy": "2025-10-18T08:52:50.822313Z",
+     "iopub.status.idle": "2025-10-18T08:52:52.151861Z",
+     "shell.execute_reply": "2025-10-18T08:52:52.150981Z"
     },
     "papermill": {
-     "duration": 0.988759,
-     "end_time": "2025-10-18T08:32:09.825190",
+     "duration": 1.33497,
+     "end_time": "2025-10-18T08:52:52.153098",
      "exception": false,
-     "start_time": "2025-10-18T08:32:08.836431",
+     "start_time": "2025-10-18T08:52:50.818128",
      "status": "completed"
     },
     "tags": []
@@ -30,7 +30,7 @@
       "remote: Counting objects: 100% (163/163), done.\u001b[K\r\n",
       "remote: Compressing objects: 100% (73/73), done.\u001b[K\r\n",
       "remote: Total 212 (delta 99), reused 90 (delta 90), pack-reused 49 (from 1)\u001b[K\r\n",
-      "Receiving objects: 100% (212/212), 4.16 MiB | 22.66 MiB/s, done.\r\n",
+      "Receiving objects: 100% (212/212), 4.16 MiB | 21.85 MiB/s, done.\r\n",
       "Resolving deltas: 100% (108/108), done.\r\n"
      ]
     }
@@ -42,19 +42,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "523e1f4b",
+   "id": "4f3712a5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:09.833284Z",
-     "iopub.status.busy": "2025-10-18T08:32:09.833024Z",
-     "iopub.status.idle": "2025-10-18T08:32:09.837857Z",
-     "shell.execute_reply": "2025-10-18T08:32:09.837272Z"
+     "iopub.execute_input": "2025-10-18T08:52:52.161281Z",
+     "iopub.status.busy": "2025-10-18T08:52:52.161045Z",
+     "iopub.status.idle": "2025-10-18T08:52:52.166012Z",
+     "shell.execute_reply": "2025-10-18T08:52:52.165399Z"
     },
     "papermill": {
-     "duration": 0.010182,
-     "end_time": "2025-10-18T08:32:09.839095",
+     "duration": 0.010065,
+     "end_time": "2025-10-18T08:52:52.167104",
      "exception": false,
-     "start_time": "2025-10-18T08:32:09.828913",
+     "start_time": "2025-10-18T08:52:52.157039",
      "status": "completed"
     },
     "tags": []
@@ -65,7 +65,7 @@
      "output_type": "stream",
      "text": [
       "当前目录: /kaggle/working/stylegan3\n",
-      "['environment.yml', 'legacy.py', 'training', 'gen_images.py', 'docs', '.github', 'torch_utils', 'dataset_tool.py', 'Dockerfile', 'dnnlib', 'gen_video.py', 'avg_spectra.py', 'viz', '.git', 'metrics', 'calc_metrics.py', 'visualizer.py', 'README.md', 'gui_utils', 'LICENSE.txt', 'train.py']\n"
+      "['legacy.py', 'dataset_tool.py', 'gen_images.py', 'visualizer.py', 'avg_spectra.py', '.github', 'torch_utils', 'environment.yml', 'Dockerfile', 'gen_video.py', 'README.md', 'training', 'calc_metrics.py', 'metrics', 'gui_utils', 'LICENSE.txt', 'dnnlib', '.git', 'train.py', 'docs', 'viz']\n"
      ]
     }
    ],
@@ -83,19 +83,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "d6a5fa42",
+   "id": "5dffeca7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:09.846645Z",
-     "iopub.status.busy": "2025-10-18T08:32:09.846369Z",
-     "iopub.status.idle": "2025-10-18T08:32:33.814577Z",
-     "shell.execute_reply": "2025-10-18T08:32:33.813536Z"
+     "iopub.execute_input": "2025-10-18T08:52:52.174570Z",
+     "iopub.status.busy": "2025-10-18T08:52:52.174187Z",
+     "iopub.status.idle": "2025-10-18T08:53:19.190046Z",
+     "shell.execute_reply": "2025-10-18T08:53:19.189282Z"
     },
     "papermill": {
-     "duration": 23.97354,
-     "end_time": "2025-10-18T08:32:33.815985",
+     "duration": 27.020967,
+     "end_time": "2025-10-18T08:53:19.191322",
      "exception": false,
-     "start_time": "2025-10-18T08:32:09.842445",
+     "start_time": "2025-10-18T08:52:52.170355",
      "status": "completed"
     },
     "tags": []
@@ -108,19 +108,19 @@
       "Collecting imgui\r\n",
       "  Downloading imgui-2.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.0 kB)\r\n",
       "Downloading imgui-2.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.7 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.7/7.7 MB\u001b[0m \u001b[31m59.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.7/7.7 MB\u001b[0m \u001b[31m57.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: imgui\r\n",
       "Successfully installed imgui-2.0.0\r\n",
       "Collecting glfw==2.2.0\r\n",
       "  Downloading glfw-2.2.0-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38-none-manylinux2014_x86_64.whl.metadata (4.3 kB)\r\n",
       "Downloading glfw-2.2.0-py2.py27.py3.py30.py31.py32.py33.py34.py35.py36.py37.py38-none-manylinux2014_x86_64.whl (204 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m204.8/204.8 kB\u001b[0m \u001b[31m5.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m204.8/204.8 kB\u001b[0m \u001b[31m3.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: glfw\r\n",
       "Successfully installed glfw-2.2.0\r\n",
       "Collecting pyopengl==3.1.5\r\n",
       "  Downloading PyOpenGL-3.1.5-py3-none-any.whl.metadata (3.2 kB)\r\n",
       "Downloading PyOpenGL-3.1.5-py3-none-any.whl (2.4 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m29.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.4/2.4 MB\u001b[0m \u001b[31m26.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: pyopengl\r\n",
       "  Attempting uninstall: pyopengl\r\n",
       "    Found existing installation: PyOpenGL 3.1.9\r\n",
@@ -130,7 +130,7 @@
       "Collecting imageio-ffmpeg==0.4.3\r\n",
       "  Downloading imageio_ffmpeg-0.4.3-py3-none-manylinux2010_x86_64.whl.metadata (1.6 kB)\r\n",
       "Downloading imageio_ffmpeg-0.4.3-py3-none-manylinux2010_x86_64.whl (26.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m26.9/26.9 MB\u001b[0m \u001b[31m64.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m26.9/26.9 MB\u001b[0m \u001b[31m75.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: imageio-ffmpeg\r\n",
       "  Attempting uninstall: imageio-ffmpeg\r\n",
       "    Found existing installation: imageio-ffmpeg 0.6.0\r\n",
@@ -152,7 +152,7 @@
       "Requirement already satisfied: intel-cmplr-lib-rt in /usr/local/lib/python3.11/dist-packages (from mkl_umath->numpy->pyspng) (2024.2.0)\r\n",
       "Requirement already satisfied: intel-cmplr-lib-ur==2024.2.0 in /usr/local/lib/python3.11/dist-packages (from intel-openmp<2026,>=2024->mkl->numpy->pyspng) (2024.2.0)\r\n",
       "Downloading pyspng-0.1.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (196 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m196.1/196.1 kB\u001b[0m \u001b[31m6.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m196.1/196.1 kB\u001b[0m \u001b[31m4.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: pyspng\r\n",
       "Successfully installed pyspng-0.1.3\r\n"
      ]
@@ -184,19 +184,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "e4207751",
+   "id": "840210da",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:33.827590Z",
-     "iopub.status.busy": "2025-10-18T08:32:33.826837Z",
-     "iopub.status.idle": "2025-10-18T08:32:34.298244Z",
-     "shell.execute_reply": "2025-10-18T08:32:34.297417Z"
+     "iopub.execute_input": "2025-10-18T08:53:19.202839Z",
+     "iopub.status.busy": "2025-10-18T08:53:19.202571Z",
+     "iopub.status.idle": "2025-10-18T08:53:19.718830Z",
+     "shell.execute_reply": "2025-10-18T08:53:19.717765Z"
     },
     "papermill": {
-     "duration": 0.478144,
-     "end_time": "2025-10-18T08:32:34.299369",
+     "duration": 0.523261,
+     "end_time": "2025-10-18T08:53:19.720039",
      "exception": false,
-     "start_time": "2025-10-18T08:32:33.821225",
+     "start_time": "2025-10-18T08:53:19.196778",
      "status": "completed"
     },
     "tags": []
@@ -266,19 +266,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "ab8ac1ab",
+   "id": "f57c24ea",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:34.311030Z",
-     "iopub.status.busy": "2025-10-18T08:32:34.310809Z",
-     "iopub.status.idle": "2025-10-18T08:32:38.443418Z",
-     "shell.execute_reply": "2025-10-18T08:32:38.442456Z"
+     "iopub.execute_input": "2025-10-18T08:53:19.730690Z",
+     "iopub.status.busy": "2025-10-18T08:53:19.730448Z",
+     "iopub.status.idle": "2025-10-18T08:53:26.088447Z",
+     "shell.execute_reply": "2025-10-18T08:53:26.087570Z"
     },
     "papermill": {
-     "duration": 4.139538,
-     "end_time": "2025-10-18T08:32:38.444795",
+     "duration": 6.364662,
+     "end_time": "2025-10-18T08:53:26.089739",
      "exception": false,
-     "start_time": "2025-10-18T08:32:34.305257",
+     "start_time": "2025-10-18T08:53:19.725077",
      "status": "completed"
     },
     "tags": []
@@ -309,13 +309,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "685b8739",
+   "id": "1f0211a6",
    "metadata": {
     "papermill": {
-     "duration": 0.004725,
-     "end_time": "2025-10-18T08:32:38.454667",
+     "duration": 0.004651,
+     "end_time": "2025-10-18T08:53:26.099707",
      "exception": false,
-     "start_time": "2025-10-18T08:32:38.449942",
+     "start_time": "2025-10-18T08:53:26.095056",
      "status": "completed"
     },
     "tags": []
@@ -326,13 +326,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "17250021",
+   "id": "ea52e3ea",
    "metadata": {
     "papermill": {
-     "duration": 0.004603,
-     "end_time": "2025-10-18T08:32:38.463893",
+     "duration": 0.004555,
+     "end_time": "2025-10-18T08:53:26.109097",
      "exception": false,
-     "start_time": "2025-10-18T08:32:38.459290",
+     "start_time": "2025-10-18T08:53:26.104542",
      "status": "completed"
     },
     "tags": []
@@ -344,19 +344,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "3d977eb0",
+   "id": "50d1957d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:38.474841Z",
-     "iopub.status.busy": "2025-10-18T08:32:38.474134Z",
-     "iopub.status.idle": "2025-10-18T08:32:38.478281Z",
-     "shell.execute_reply": "2025-10-18T08:32:38.477779Z"
+     "iopub.execute_input": "2025-10-18T08:53:26.120448Z",
+     "iopub.status.busy": "2025-10-18T08:53:26.120150Z",
+     "iopub.status.idle": "2025-10-18T08:53:26.124130Z",
+     "shell.execute_reply": "2025-10-18T08:53:26.123573Z"
     },
     "papermill": {
-     "duration": 0.010631,
-     "end_time": "2025-10-18T08:32:38.479318",
+     "duration": 0.011273,
+     "end_time": "2025-10-18T08:53:26.125153",
      "exception": false,
-     "start_time": "2025-10-18T08:32:38.468687",
+     "start_time": "2025-10-18T08:53:26.113880",
      "status": "completed"
     },
     "tags": []
@@ -426,19 +426,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "0ca0b78c",
+   "id": "750ab894",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:38.490823Z",
-     "iopub.status.busy": "2025-10-18T08:32:38.490613Z",
-     "iopub.status.idle": "2025-10-18T08:32:38.495318Z",
-     "shell.execute_reply": "2025-10-18T08:32:38.494649Z"
+     "iopub.execute_input": "2025-10-18T08:53:26.135770Z",
+     "iopub.status.busy": "2025-10-18T08:53:26.135326Z",
+     "iopub.status.idle": "2025-10-18T08:53:26.140127Z",
+     "shell.execute_reply": "2025-10-18T08:53:26.139449Z"
     },
     "papermill": {
-     "duration": 0.011368,
-     "end_time": "2025-10-18T08:32:38.496469",
+     "duration": 0.011192,
+     "end_time": "2025-10-18T08:53:26.141181",
      "exception": false,
-     "start_time": "2025-10-18T08:32:38.485101",
+     "start_time": "2025-10-18T08:53:26.129989",
      "status": "completed"
     },
     "tags": []
@@ -532,19 +532,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "c77c1025",
+   "id": "cb52fff0",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:38.507383Z",
-     "iopub.status.busy": "2025-10-18T08:32:38.507000Z",
-     "iopub.status.idle": "2025-10-18T08:32:38.514090Z",
-     "shell.execute_reply": "2025-10-18T08:32:38.513447Z"
+     "iopub.execute_input": "2025-10-18T08:53:26.151927Z",
+     "iopub.status.busy": "2025-10-18T08:53:26.151457Z",
+     "iopub.status.idle": "2025-10-18T08:53:26.158354Z",
+     "shell.execute_reply": "2025-10-18T08:53:26.157619Z"
     },
     "papermill": {
-     "duration": 0.013641,
-     "end_time": "2025-10-18T08:32:38.515099",
+     "duration": 0.01341,
+     "end_time": "2025-10-18T08:53:26.159484",
      "exception": false,
-     "start_time": "2025-10-18T08:32:38.501458",
+     "start_time": "2025-10-18T08:53:26.146074",
      "status": "completed"
     },
     "tags": []
@@ -602,19 +602,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "d094bf62",
+   "id": "d9b1bab5",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:38.526061Z",
-     "iopub.status.busy": "2025-10-18T08:32:38.525865Z",
-     "iopub.status.idle": "2025-10-18T08:32:38.540732Z",
-     "shell.execute_reply": "2025-10-18T08:32:38.539933Z"
+     "iopub.execute_input": "2025-10-18T08:53:26.169833Z",
+     "iopub.status.busy": "2025-10-18T08:53:26.169610Z",
+     "iopub.status.idle": "2025-10-18T08:53:26.184233Z",
+     "shell.execute_reply": "2025-10-18T08:53:26.183710Z"
     },
     "papermill": {
-     "duration": 0.021597,
-     "end_time": "2025-10-18T08:32:38.541831",
+     "duration": 0.020818,
+     "end_time": "2025-10-18T08:53:26.185143",
      "exception": false,
-     "start_time": "2025-10-18T08:32:38.520234",
+     "start_time": "2025-10-18T08:53:26.164325",
      "status": "completed"
     },
     "tags": []
@@ -653,19 +653,19 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "39eea852",
+   "id": "577c5e7d",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:38.552329Z",
-     "iopub.status.busy": "2025-10-18T08:32:38.552125Z",
-     "iopub.status.idle": "2025-10-18T08:32:39.749506Z",
-     "shell.execute_reply": "2025-10-18T08:32:39.748795Z"
+     "iopub.execute_input": "2025-10-18T08:53:26.195959Z",
+     "iopub.status.busy": "2025-10-18T08:53:26.195756Z",
+     "iopub.status.idle": "2025-10-18T08:53:27.487490Z",
+     "shell.execute_reply": "2025-10-18T08:53:27.486860Z"
     },
     "papermill": {
-     "duration": 1.203821,
-     "end_time": "2025-10-18T08:32:39.750711",
+     "duration": 1.298389,
+     "end_time": "2025-10-18T08:53:27.488618",
      "exception": false,
-     "start_time": "2025-10-18T08:32:38.546890",
+     "start_time": "2025-10-18T08:53:26.190229",
      "status": "completed"
     },
     "tags": []
@@ -701,19 +701,19 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "8b8f1eb0",
+   "id": "f3b19c40",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:39.762505Z",
-     "iopub.status.busy": "2025-10-18T08:32:39.762238Z",
-     "iopub.status.idle": "2025-10-18T08:32:39.766891Z",
-     "shell.execute_reply": "2025-10-18T08:32:39.766128Z"
+     "iopub.execute_input": "2025-10-18T08:53:27.500183Z",
+     "iopub.status.busy": "2025-10-18T08:53:27.499965Z",
+     "iopub.status.idle": "2025-10-18T08:53:27.504060Z",
+     "shell.execute_reply": "2025-10-18T08:53:27.503395Z"
     },
     "papermill": {
-     "duration": 0.011816,
-     "end_time": "2025-10-18T08:32:39.768182",
+     "duration": 0.011159,
+     "end_time": "2025-10-18T08:53:27.505091",
      "exception": false,
-     "start_time": "2025-10-18T08:32:39.756366",
+     "start_time": "2025-10-18T08:53:27.493932",
      "status": "completed"
     },
     "tags": []
@@ -792,20 +792,20 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "33be0bdf",
+   "id": "7748e4f2",
    "metadata": {
     "_kg_hide-output": true,
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:39.779499Z",
-     "iopub.status.busy": "2025-10-18T08:32:39.778940Z",
-     "iopub.status.idle": "2025-10-18T08:32:43.868226Z",
-     "shell.execute_reply": "2025-10-18T08:32:43.867456Z"
+     "iopub.execute_input": "2025-10-18T08:53:27.516540Z",
+     "iopub.status.busy": "2025-10-18T08:53:27.516135Z",
+     "iopub.status.idle": "2025-10-18T08:53:46.092403Z",
+     "shell.execute_reply": "2025-10-18T08:53:46.091581Z"
     },
     "papermill": {
-     "duration": 4.09657,
-     "end_time": "2025-10-18T08:32:43.869701",
+     "duration": 18.583438,
+     "end_time": "2025-10-18T08:53:46.093769",
      "exception": false,
-     "start_time": "2025-10-18T08:32:39.773131",
+     "start_time": "2025-10-18T08:53:27.510331",
      "status": "completed"
     },
     "tags": []
@@ -815,10 +815,172 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Usage: train.py [OPTIONS]\r\n",
-      "Try 'train.py --help' for help.\r\n",
       "\r\n",
-      "Error: No such option: --resolution (Possible options: --outdir, --resume)\r\n"
+      "Training options:\r\n",
+      "{\r\n",
+      "  \"G_kwargs\": {\r\n",
+      "    \"class_name\": \"training.networks_stylegan3.Generator\",\r\n",
+      "    \"z_dim\": 512,\r\n",
+      "    \"w_dim\": 512,\r\n",
+      "    \"mapping_kwargs\": {\r\n",
+      "      \"num_layers\": 2\r\n",
+      "    },\r\n",
+      "    \"channel_base\": 32768,\r\n",
+      "    \"channel_max\": 512,\r\n",
+      "    \"magnitude_ema_beta\": 0.999168569213607\r\n",
+      "  },\r\n",
+      "  \"D_kwargs\": {\r\n",
+      "    \"class_name\": \"training.networks_stylegan2.Discriminator\",\r\n",
+      "    \"block_kwargs\": {\r\n",
+      "      \"freeze_layers\": 0\r\n",
+      "    },\r\n",
+      "    \"mapping_kwargs\": {},\r\n",
+      "    \"epilogue_kwargs\": {\r\n",
+      "      \"mbstd_group_size\": 4\r\n",
+      "    },\r\n",
+      "    \"channel_base\": 32768,\r\n",
+      "    \"channel_max\": 512\r\n",
+      "  },\r\n",
+      "  \"G_opt_kwargs\": {\r\n",
+      "    \"class_name\": \"torch.optim.Adam\",\r\n",
+      "    \"betas\": [\r\n",
+      "      0.0,\r\n",
+      "      0.99\r\n",
+      "    ],\r\n",
+      "    \"eps\": 1e-08,\r\n",
+      "    \"lr\": 0.0025\r\n",
+      "  },\r\n",
+      "  \"D_opt_kwargs\": {\r\n",
+      "    \"class_name\": \"torch.optim.Adam\",\r\n",
+      "    \"betas\": [\r\n",
+      "      0.0,\r\n",
+      "      0.99\r\n",
+      "    ],\r\n",
+      "    \"eps\": 1e-08,\r\n",
+      "    \"lr\": 0.002\r\n",
+      "  },\r\n",
+      "  \"loss_kwargs\": {\r\n",
+      "    \"class_name\": \"training.loss.StyleGAN2Loss\",\r\n",
+      "    \"r1_gamma\": 14.0,\r\n",
+      "    \"blur_init_sigma\": 0\r\n",
+      "  },\r\n",
+      "  \"data_loader_kwargs\": {\r\n",
+      "    \"pin_memory\": true,\r\n",
+      "    \"prefetch_factor\": 2,\r\n",
+      "    \"num_workers\": 3\r\n",
+      "  },\r\n",
+      "  \"training_set_kwargs\": {\r\n",
+      "    \"class_name\": \"training.dataset.ImageFolderDataset\",\r\n",
+      "    \"path\": \"/kaggle/working/my_dataset-512x512.zip\",\r\n",
+      "    \"use_labels\": false,\r\n",
+      "    \"max_size\": 170,\r\n",
+      "    \"xflip\": true,\r\n",
+      "    \"resolution\": 512,\r\n",
+      "    \"random_seed\": 0\r\n",
+      "  },\r\n",
+      "  \"num_gpus\": 2,\r\n",
+      "  \"batch_size\": 24,\r\n",
+      "  \"batch_gpu\": 12,\r\n",
+      "  \"metrics\": [\r\n",
+      "    \"fid50k_full\"\r\n",
+      "  ],\r\n",
+      "  \"total_kimg\": 160,\r\n",
+      "  \"kimg_per_tick\": 4,\r\n",
+      "  \"image_snapshot_ticks\": 10,\r\n",
+      "  \"network_snapshot_ticks\": 10,\r\n",
+      "  \"random_seed\": 0,\r\n",
+      "  \"ema_kimg\": 7.5,\r\n",
+      "  \"augment_kwargs\": {\r\n",
+      "    \"class_name\": \"training.augment.AugmentPipe\",\r\n",
+      "    \"xflip\": 1,\r\n",
+      "    \"rotate90\": 1,\r\n",
+      "    \"xint\": 1,\r\n",
+      "    \"scale\": 1,\r\n",
+      "    \"rotate\": 1,\r\n",
+      "    \"aniso\": 1,\r\n",
+      "    \"xfrac\": 1,\r\n",
+      "    \"brightness\": 1,\r\n",
+      "    \"contrast\": 1,\r\n",
+      "    \"lumaflip\": 1,\r\n",
+      "    \"hue\": 1,\r\n",
+      "    \"saturation\": 1\r\n",
+      "  },\r\n",
+      "  \"augment_p\": 0.2,\r\n",
+      "  \"resume_pkl\": \"/kaggle/input/new-120kpkl/network-snapshot-000060.pkl\",\r\n",
+      "  \"ada_kimg\": 100,\r\n",
+      "  \"ema_rampup\": null,\r\n",
+      "  \"run_dir\": \"/kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14\"\r\n",
+      "}\r\n",
+      "\r\n",
+      "Output directory:    /kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14\r\n",
+      "Number of GPUs:      2\r\n",
+      "Batch size:          24 images\r\n",
+      "Training duration:   160 kimg\r\n",
+      "Dataset path:        /kaggle/working/my_dataset-512x512.zip\r\n",
+      "Dataset size:        170 images\r\n",
+      "Dataset resolution:  512\r\n",
+      "Dataset labels:      False\r\n",
+      "Dataset x-flips:     True\r\n",
+      "\r\n",
+      "Creating output directory...\r\n",
+      "Launching processes...\r\n",
+      "Loading training set...\r\n",
+      "/usr/local/lib/python3.11/dist-packages/torch/utils/data/sampler.py:77: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.\r\n",
+      "  warnings.warn(\r\n",
+      "/usr/local/lib/python3.11/dist-packages/torch/utils/data/sampler.py:77: UserWarning: `data_source` argument is not used and will be removed in 2.2.0.You may still have custom implementation that utilizes it.\r\n",
+      "  warnings.warn(\r\n",
+      "\r\n",
+      "Num images:  340\r\n",
+      "Image shape: [3, 512, 512]\r\n",
+      "Label shape: [0]\r\n",
+      "\r\n",
+      "Constructing networks...\r\n",
+      "Resuming from \"/kaggle/input/new-120kpkl/network-snapshot-000060.pkl\"\r\n",
+      "[rank0]:[W1018 08:53:44.950825101 ProcessGroupNCCL.cpp:1496] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())\r\n",
+      "W1018 08:53:45.407000 81 torch/multiprocessing/spawn.py:169] Terminating process 89 via signal SIGTERM\r\n",
+      "Traceback (most recent call last):\r\n",
+      "  File \"/kaggle/working/stylegan3/train.py\", line 286, in <module>\r\n",
+      "    main() # pylint: disable=no-value-for-parameter\r\n",
+      "    ^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/click/core.py\", line 1442, in __call__\r\n",
+      "    return self.main(*args, **kwargs)\r\n",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/click/core.py\", line 1363, in main\r\n",
+      "    rv = self.invoke(ctx)\r\n",
+      "         ^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/click/core.py\", line 1226, in invoke\r\n",
+      "    return ctx.invoke(self.callback, **ctx.params)\r\n",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/click/core.py\", line 794, in invoke\r\n",
+      "    return callback(*args, **kwargs)\r\n",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/kaggle/working/stylegan3/train.py\", line 281, in main\r\n",
+      "    launch_training(c=c, desc=desc, outdir=opts.outdir, dry_run=opts.dry_run)\r\n",
+      "  File \"/kaggle/working/stylegan3/train.py\", line 98, in launch_training\r\n",
+      "    torch.multiprocessing.spawn(fn=subprocess_fn, args=(c, temp_dir), nprocs=c.num_gpus)\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/torch/multiprocessing/spawn.py\", line 340, in spawn\r\n",
+      "    return start_processes(fn, args, nprocs, join, daemon, start_method=\"spawn\")\r\n",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/torch/multiprocessing/spawn.py\", line 296, in start_processes\r\n",
+      "    while not context.join():\r\n",
+      "              ^^^^^^^^^^^^^^\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/torch/multiprocessing/spawn.py\", line 215, in join\r\n",
+      "    raise ProcessRaisedException(msg, error_index, failed_process.pid)\r\n",
+      "torch.multiprocessing.spawn.ProcessRaisedException: \r\n",
+      "\r\n",
+      "-- Process 0 terminated with the following error:\r\n",
+      "Traceback (most recent call last):\r\n",
+      "  File \"/usr/local/lib/python3.11/dist-packages/torch/multiprocessing/spawn.py\", line 90, in _wrap\r\n",
+      "    fn(i, *args)\r\n",
+      "  File \"/kaggle/working/stylegan3/train.py\", line 47, in subprocess_fn\r\n",
+      "    training_loop.training_loop(rank=rank, **c)\r\n",
+      "  File \"/kaggle/working/stylegan3/training/training_loop.py\", line 162, in training_loop\r\n",
+      "    misc.copy_params_and_buffers(resume_data[name], module, require_all=False)\r\n",
+      "  File \"/kaggle/working/stylegan3/torch_utils/misc.py\", line 162, in copy_params_and_buffers\r\n",
+      "    tensor.copy_(src_tensors[name].detach()).requires_grad_(tensor.requires_grad)\r\n",
+      "    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n",
+      "RuntimeError: The size of tensor a (512) must match the size of tensor b (1024) at non-singleton dimension 1\r\n",
+      "\r\n"
      ]
     }
    ],
@@ -849,7 +1011,6 @@
     "--mirror 1 \\\n",
     "--cond 0\\\n",
     "--kimg 160\\\n",
-    "--resolution 512x512\\\n",
     "--snap 10\\\n",
     "\n",
     "\n",
@@ -860,13 +1021,13 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "f2ac67c9",
+   "id": "c623b3d9",
    "metadata": {
     "papermill": {
-     "duration": 0.006106,
-     "end_time": "2025-10-18T08:32:43.881745",
+     "duration": 0.005684,
+     "end_time": "2025-10-18T08:53:46.105509",
      "exception": false,
-     "start_time": "2025-10-18T08:32:43.875639",
+     "start_time": "2025-10-18T08:53:46.099825",
      "status": "completed"
     },
     "tags": []
@@ -877,19 +1038,19 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "72f30a6f",
+   "id": "3c69391c",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-10-18T08:32:43.893618Z",
-     "iopub.status.busy": "2025-10-18T08:32:43.892894Z",
-     "iopub.status.idle": "2025-10-18T08:32:44.022346Z",
-     "shell.execute_reply": "2025-10-18T08:32:44.021436Z"
+     "iopub.execute_input": "2025-10-18T08:53:46.118049Z",
+     "iopub.status.busy": "2025-10-18T08:53:46.117797Z",
+     "iopub.status.idle": "2025-10-18T08:53:46.248269Z",
+     "shell.execute_reply": "2025-10-18T08:53:46.246967Z"
     },
     "papermill": {
-     "duration": 0.136529,
-     "end_time": "2025-10-18T08:32:44.023690",
+     "duration": 0.13852,
+     "end_time": "2025-10-18T08:53:46.249844",
      "exception": false,
-     "start_time": "2025-10-18T08:32:43.887161",
+     "start_time": "2025-10-18T08:53:46.111324",
      "status": "completed"
     },
     "tags": []
@@ -899,9 +1060,10 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "\tzip warning: name not matched: /kaggle/working/training\r\n",
-      "\r\n",
-      "zip error: Nothing to do! (try: zip -r /kaggle/working/training.zip . -i /kaggle/working/training)\r\n"
+      "  adding: kaggle/working/training/ (stored 0%)\r\n",
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/ (stored 0%)\r\n",
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/log.txt (deflated 53%)\r\n",
+      "  adding: kaggle/working/training/00000-stylegan3-t-my_dataset-512x512-gpus2-batch24-gamma14/training_options.json (deflated 63%)\r\n"
      ]
     }
    ],
@@ -955,14 +1117,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 40.261111,
-   "end_time": "2025-10-18T08:32:44.747250",
+   "duration": 61.83491,
+   "end_time": "2025-10-18T08:53:46.975571",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-10-18T08:32:04.486139",
+   "start_time": "2025-10-18T08:52:45.140661",
    "version": "2.6.0"
   }
  },
